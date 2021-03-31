@@ -14,9 +14,9 @@ module.exports = {
         'rubik': ['Rubik', 'sans-serif'],
       },
       fontSize: {
-        '22xl': '1.375rem',
-        '40xl': '2.5rem',
-        '56xl': '3.5rem',
+        '24xl': '1.5rem', // H3
+        '40xl': '2.5rem', // H2
+        '56xl': '3.5rem', // H1
       },
     },
   },
