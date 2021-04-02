@@ -2,6 +2,7 @@
   <div>
     <NavBar />
     <FeatureSection />
+    <PricingTableSection />
     <FaqSection />
     <Cta />
   </div>
