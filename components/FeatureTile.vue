@@ -1,8 +1,7 @@
 <template>
-  <div class="bg-primary p-6 rounded-xl max-w-md mx-auto">
-    <!-- <img class="bg-highlight rounded-lg" src="~/assets/emojis/dizzy-face.png" /> -->
+  <div class="bg-primary p-6 rounded-xl max-w-md mx-auto shadow-lg">
     <img
-      class="bg-highlight rounded-lg"
+      class="bg-gradient-to-tr from-primary-gradient-1 to-primary-gradient-2 rounded-lg shadow-2xl"
       :src="require(`~/assets/emojis/${feature.image}`)"
     />
 
