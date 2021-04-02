@@ -1,12 +1,17 @@
 <template>
-  <div
-    class="grid lg:grid-cols-3 gap-6 2xl:gap-y-6 md:grid-cols-2 sm:grid-cols-1"
-  >
-    <FeatureTile
-      v-for="feature in features"
-      :key="feature.headline"
-      :feature="feature"
-    />
+  <div>
+    <div class="tagline text-center">GET ALL THE FEATURES</div>
+    <h2 class="text-center">An experience you deserve</h2>
+    <!-- Feature Tile Grid -->
+    <div
+      class="grid lg:grid-cols-3 gap-6 2xl:gap-y-6 md:grid-cols-2 sm:grid-cols-1"
+    >
+      <FeatureTile
+        v-for="feature in features"
+        :key="feature.headline"
+        :feature="feature"
+      />
+    </div>
   </div>
 </template>
 
