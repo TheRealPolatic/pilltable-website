@@ -2,6 +2,7 @@
   <div>
     <NavBar />
     <FeatureSection />
+    <PricingTableSection />
     <FaqSection />
     <div
       class="grid lg:grid-cols-3 gap-6 2xl:gap-y-12 md:grid-cols-2 sm:grid-cols-1"
