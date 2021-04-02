@@ -18,6 +18,9 @@ module.exports = {
         '40xl': '2.5rem',
         '56xl': '3.5rem',
       },
+      letterSpacing: {
+        widestPilltable: '.45em',
+      }
     },
   },
   variants: {
