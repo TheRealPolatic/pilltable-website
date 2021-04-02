@@ -1,6 +1,8 @@
 {
   "semi": false,
   "singleQuote": true,
-  "endOfLine":"auto",
-  "quoteProps": "preserve"
+  "endOfLine": "auto",
+  "quoteProps": "preserve",
+  "printWidth": 180,
+  "jsxBracketSameLine": true
 }
