@@ -1,6 +1,8 @@
 <template>
   <div class="mt-12 font-rubik">
-    <h2 class="text-sm text-highlight tracking-widest uppercase">Questions</h2>
+    <h2 class="text-sm text-highlight tracking-widestPilltable uppercase">
+      Questions
+    </h2>
     <h1 class="md:text-40xl text-4xl mt-3 font-medium text-white tracking-wide">
       What the FAQ!? 🤔
     </h1>
