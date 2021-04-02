@@ -10,14 +10,10 @@
         :aria-checked="isOpen"
         @click="isOpen = !isOpen"
       >
-        <span class="font-medium text-white">
+        <p class="p-bold">
           {{ faq.question }}
-        </span>
+        </p>
         <span class="ml-6 h-7 flex items-center">
-          <!--
-                  Expand/collapse icon, toggle classes based on question open state.
-                  Open: "-rotate-180", Closed: "rotate-0"
-              -->
           <svg
             :class="
               isOpen
@@ -40,13 +36,7 @@
         </span>
       </button>
     </div>
-    <p
-      :class="
-        isOpen
-          ? 'hidden text-base text-white font-thin w-11/12 mt-4'
-          : 'text-base text-white font-thin w-11/12 mt-4'
-      "
-    >
+    <p :class="isOpen ? 'hidden' : 'p-small'">
       {{ faq.answer }}
     </p>
   </div>
@@ -54,9 +44,6 @@
 
 <script>
 export default {
-  data: () => ({
-    isOpen: true,
-  }),
   props: {
     faq: {
       type: Object,
@@ -65,5 +52,8 @@ export default {
       },
     },
   },
+  data: () => ({
+    isOpen: true,
+  }),
 }
 </script>

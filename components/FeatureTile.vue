@@ -5,10 +5,10 @@
       :src="require(`~/assets/emojis/${feature.image}`)"
     />
 
-    <h3 class="text-24xl text-white font-semibold mt-4">
+    <h3>
       {{ feature.headline }}
     </h3>
-    <p class="text-xl text-white mt-2 font-light">
+    <p class="p-small">
       {{ feature.description }}
     </p>
   </div>

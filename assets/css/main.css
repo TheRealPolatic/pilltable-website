@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1{
+        @apply font-rubik md:text-56xl text-6xl text-center mt-3 mb-12 font-medium text-white tracking-wide;
+    }
+
+    h2{
+        @apply font-rubik md:text-40xl text-4xl mt-3 mb-12 font-medium text-white tracking-wide;
+    }
+
+    h3 {
+      @apply font-rubik text-24xl text-white font-semibold mt-4;
+    }
+    
+    .tagline{
+        @apply font-rubik text-sm text-highlight tracking-widestPilltable uppercase;
+    }
+
+    p {
+        @apply font-rubik text-xl font-light text-light-grey;
+    }
+
+    .p-small {
+        @apply text-base mt-3;
+    }
+
+    .p-bold{
+        @apply font-medium text-white text-lg;
+    }
+    
+  }
+

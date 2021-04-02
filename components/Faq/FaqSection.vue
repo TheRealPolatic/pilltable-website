@@ -1,14 +1,8 @@
 <template>
   <div>
-    <div class="mt-12 font-rubik">
-      <h2 class="text-sm text-highlight tracking-widestPilltable uppercase">
-        Questions
-      </h2>
-      <h1
-        class="md:text-40xl text-4xl mt-3 mb-12 font-medium text-white tracking-wide"
-      >
-        What the FAQ!? 🤔
-      </h1>
+    <div class="mt-12">
+      <div class="tagline">Questions</div>
+      <h2>What the FAQ!? 🤔</h2>
       <FaqQuestion v-for="faq in faqs" :key="faq.question" :faq="faq" />
     </div>
   </div>
