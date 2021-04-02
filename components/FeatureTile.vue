@@ -1,15 +1,14 @@
 <template>
-  <div class="bg-primary p-6 rounded-xl max-w-md mx-auto">
-    <!-- <img class="bg-highlight rounded-lg" src="~/assets/emojis/dizzy-face.png" /> -->
+  <div class="bg-primary p-6 rounded-xl max-w-md mx-auto shadow-lg">
     <img
-      class="bg-highlight rounded-lg"
+      class="bg-gradient-to-tr from-primary-gradient-1 to-primary-gradient-2 rounded-lg shadow-2xl"
       :src="require(`~/assets/emojis/${feature.image}`)"
     />
 
-    <h3 class="text-24xl text-white font-semibold mt-4">
+    <h3>
       {{ feature.headline }}
     </h3>
-    <p class="text-xl text-white mt-2 font-light">
+    <p class="p-small">
       {{ feature.description }}
     </p>
   </div>
