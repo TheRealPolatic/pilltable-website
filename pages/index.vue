@@ -14,6 +14,8 @@
         :feature="feature"
       />
     </div>
+
+    <Cta />
   </div>
 </template>
 
