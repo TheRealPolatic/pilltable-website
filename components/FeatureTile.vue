@@ -1,15 +1,31 @@
 <template>
-  <div class="bg-primary p-6 rounded-xl">
-    <img class="bg-highlight rounded-lg" src="~/assets/emojis/dizzy-face.png" />
-    <h3 class="text-24xl text-white font-semibold mt-4">Dosing guidelines</h3>
+  <div class="bg-primary p-6 rounded-xl min-w-96">
+    <!-- <img class="bg-highlight rounded-lg" src="~/assets/emojis/dizzy-face.png" /> -->
+    <img
+      class="bg-highlight rounded-lg"
+      :src="require(`~/assets/emojis/${feature.image}`)"
+    />
+
+    <h3 class="text-24xl text-white font-semibold mt-4">
+      {{ feature.headline }}
+    </h3>
     <p class="text-xl text-white mt-2 font-light">
-      We respect your privacy, Pilltable is completely anonymous.
+      {{ feature.description }}
     </p>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    feature: {
+      type: Object,
+      default() {
+        return {}
+      },
+    },
+  },
+}
 </script>
 
 <style></style>
