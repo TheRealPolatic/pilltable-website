@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary p-6 rounded-xl min-w-96">
+  <div class="bg-primary p-6 rounded-xl max-w-md mx-auto">
     <!-- <img class="bg-highlight rounded-lg" src="~/assets/emojis/dizzy-face.png" /> -->
     <img
       class="bg-highlight rounded-lg"

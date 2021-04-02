@@ -3,7 +3,7 @@
     <NavBar />
     <h1 class="font-rubik font-medium text-22xl">Pilltable website</h1>
 
-    <div class="grid grid-cols-3 grid-rows-2 gap-6">
+    <div class="grid lg:grid-cols-3 gap-6 md:grid-cols-2 sm:grid-cols-1">
       <FeatureTile
         v-for="feature in features"
         :key="feature.headline"
