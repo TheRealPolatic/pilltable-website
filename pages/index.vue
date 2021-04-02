@@ -15,7 +15,7 @@
       />
     </div>
 
-    <Cta />
+    <CtaSection />
   </div>
 </template>
 
