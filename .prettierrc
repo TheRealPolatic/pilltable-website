@@ -1,6 +1,7 @@
 {
   "semi": false,
   "singleQuote": true,
-  "endOfLine":"auto",
-  "quoteProps": "preserve"
+  "endOfLine": "auto",
+  "quoteProps": "preserve",
+  "lineWidth": 180
 }
