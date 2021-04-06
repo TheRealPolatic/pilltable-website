@@ -14,11 +14,7 @@
     </div>
 
     <!-- Render all features -->
-    <PricingTableRow
-      v-for="feature in features"
-      :key="feature.title"
-      :feature="feature"
-    />
+    <PricingTableRow v-for="feature in features" :key="feature.title" :feature="feature" />
   </div>
 </template>
 
