@@ -22,9 +22,8 @@
     "core-js": "^3.9.1",
     "headroom.js": "^0.12.0",
     "nuxt": "^2.15.3",
-    "vue-headroom": "^0.10.1"
+    "vue-headroom": "^0.10.1",
     "tailwindcss-gradients": "^3.0.0"
-
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",
