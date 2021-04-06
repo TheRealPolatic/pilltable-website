@@ -1,6 +1,7 @@
 <template>
   <div>
     <NavBar />
+    <HeroSection />
     <UspList />
     <FeatureSection />
     <PricingTableSection />
