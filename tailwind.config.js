@@ -11,6 +11,8 @@ module.exports = {
         'opacity-elements': 'rgba(255, 255, 255, 0.02)',
         'primary-gradient-1': '#35346C',
         'primary-gradient-2': '#2C2B5A',
+        'button-gradient-1': '#1D2DFB',
+        'button-gradient-2': '#4A57FC',
       },
       fontFamily: {
         'rubik': ['Rubik', 'sans-serif'],
@@ -22,7 +24,7 @@ module.exports = {
       },
       letterSpacing: {
         widestPilltable: '.45em',
-      }
+      },
     },
   },
   variants: {
