@@ -2,6 +2,7 @@
   <div>
     <NavBar />
     <HeroSection />
+    <UspList />
     <FeatureSection />
     <PricingTableSection />
     <FaqSection />
