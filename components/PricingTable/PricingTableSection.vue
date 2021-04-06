@@ -19,10 +19,10 @@
     <div class="grid grid-cols-12 gap-2 p-6">
       <div class="col-span-6"></div>
       <div class="col-span-3 mx-auto">
-        <Button text="Free version" link="https://www.google.nl" />
+        <Button text="Free version" link="/try-now" />
       </div>
       <div class="col-span-3 mx-auto">
-        <Button text="Go Unlimited" link="https://www.google.nl" />
+        <Button text="Go unlimited" link="https://www.google.nl" secondary="true" />
       </div>
     </div>
   </div>
