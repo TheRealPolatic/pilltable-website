@@ -3,6 +3,7 @@
     <HeroSection />
     <UspList />
     <FeatureSection />
+    <TestimonialsSection />
     <PricingTableSection />
     <FaqSection />
     <CtaSection />
