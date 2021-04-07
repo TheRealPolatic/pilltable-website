@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative h-96 flex justify-center items-center bg-primary w-full my-12 rounded-lg"
+    class="relative overflow-hidden h-96 flex justify-center items-center bg-primary w-full my-12 rounded-lg"
   >
     <svg
       class="absolute top-0 w-full"
@@ -39,22 +39,58 @@
         </filter>
       </defs>
     </svg>
-    <div class="animated-ball"></div>
+    <div
+      class="absolute bg-opacity-elements rounded-full animation-space-float-2 left-0 -top-20 w-44 h-44"
+    ></div>
+    <div
+      class="absolute bg-opacity-elements rounded-full animation-space-float-3 left-20 -bottom-10 w-60 h-60"
+    ></div>
+
+    <div
+      class="absolute bg-opacity-elements rounded-full animation-space-float -top-10 -right-10 w-72 h-72"
+    ></div>
 
     <h2 class="lg:w-1/2 md:w-2/3 w-4/5 text-center leading-tight z-10">
       Try Pilltable with your friends for free
     </h2>
+    <Button text="Open Pilltable" secondary="true" />
   </div>
 </template>
 
 <style scoped>
-.animated-ball {
-  position: absolute;
-  top: 0;
-  left: 1;
-  width: 10rem;
-  height: 10rem;
-  background-color: rgba(43, 229, 149, 0.64);
-  border-radius: 100%;
+.animation-space-float {
+  animation: space-float 20s linear infinite;
+}
+
+.animation-space-float-2 {
+  animation-delay: 2s;
+  animation: space-float 20s linear infinite;
+}
+
+.animation-space-float-3 {
+  animation-delay: 5s;
+  animation: space-float 20s linear infinite;
+}
+
+@keyframes space-float {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-12%, 12%);
+  }
+
+  50% {
+    transform: translate(0, 23%);
+  }
+
+  75% {
+    transform: translate(10%, -10%);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
 }
 </style>
