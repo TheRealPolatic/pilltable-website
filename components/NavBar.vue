@@ -1,6 +1,8 @@
 <template>
   <headroom speed="400" class="transition ease-in-out duration-300">
-    <header class="flex items-center justify-between flex-wrap p-6 bg-background">
+    <header
+      class="flex items-center justify-between flex-wrap p-6 container mx-auto 2xl:px-40 xl:px-32 lg:px-16 md:px-12 px-6"
+    >
       <div class="flex items-center flex-no-shrink mr-6">
         <a href="#">
           <h3 class="mt-0">Pilltable</h3>
@@ -81,7 +83,7 @@ export default {
 
 <style>
 .headroom--not-top.headroom--pinned {
-  @apply shadow-xl transition ease-in-out duration-300 delay-500;
+  @apply shadow-xl transition ease-in-out duration-300 delay-500 bg-dark-elements;
 }
 
 .headroom--top {

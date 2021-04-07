@@ -13,6 +13,7 @@ module.exports = {
         'primary-gradient-2': '#2C2B5A',
         'button-gradient-1': '#4A57FC',
         'button-gradient-2': '#1D2DFB',
+        'dark-elements': '#211E3F',
       },
       fontFamily: {
         'rubik': ['Rubik', 'sans-serif'],

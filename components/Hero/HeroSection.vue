@@ -10,6 +10,6 @@
       </p>
       <Button class="mt-10" text="Start tracking" link="/try-now" secondary="true" />
     </div>
-    <img src="~/assets/mockups/hero-mockup.png" alt="" srcset="" />
+    <img class="m-auto" src="~/assets/mockups/hero-mockup.png" alt="" srcset="" />
   </div>
 </template>

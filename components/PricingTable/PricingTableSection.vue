@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="min-h-screen mb-20">
     <div class="tagline text-center">TRY FOR FREE</div>
     <h2 class="text-center">Pricing table</h2>
 
