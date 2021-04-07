@@ -1,5 +1,5 @@
 <template>
-  <headroom speed="400">
+  <headroom speed="400" class="transition ease-in-out duration-300">
     <header class="flex items-center justify-between flex-wrap p-6 bg-background">
       <div class="flex items-center flex-no-shrink mr-6">
         <a href="#">
@@ -45,11 +45,13 @@
             </p>
           </div>
           <div class="flex justify-center">
-            <button
-              class="bg-gradient-to-tr from-button-gradient-1 to-button-gradient-2 hover:text-primary hover:from-white hover:to-white transform transition duration-300 ease-in-out font-rubik text-white text-l font-medium px-6 h-11 rounded-md shadow-none hover:shadow-2xl scale-100 hover:scale-105 active:scale-100 active:scale-100 focus:outline-none"
+            <a href="/try-now">
+              <button
+                class="bg-gradient-to-tr from-button-gradient-1 to-button-gradient-2 hover:text-primary hover:from-white hover:to-white transform transition duration-300 ease-in-out font-rubik text-white text-l font-medium px-6 h-11 rounded-md shadow-none hover:shadow-2xl scale-100 hover:scale-105 active:scale-100 active:scale-100 focus:outline-none"
+              >
+                Try for free
+              </button></a
             >
-              Try for free
-            </button>
           </div>
         </div>
       </div>
@@ -77,8 +79,12 @@ export default {
 }
 </script>
 
-<style scoped>
-.headroom {
-  background: red;
+<style>
+.headroom--not-top.headroom--pinned {
+  @apply shadow-xl transition ease-in-out duration-300 delay-500;
+}
+
+.headroom--top {
+  @apply shadow-none transition ease-in-out duration-500;
 }
 </style>
