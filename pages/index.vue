@@ -1,6 +1,7 @@
 <template>
   <div>
     <HeroSection />
+    <PartnersSection />
     <UspList />
     <FeatureSection />
     <TestimonialsSection />
