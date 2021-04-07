@@ -39,9 +39,22 @@
         </filter>
       </defs>
     </svg>
+    <div class="animated-ball"></div>
 
     <h2 class="lg:w-1/2 md:w-2/3 w-4/5 text-center leading-tight z-10">
       Try Pilltable with your friends for free
     </h2>
   </div>
 </template>
+
+<style scoped>
+.animated-ball {
+  position: absolute;
+  top: 0;
+  left: 1;
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(43, 229, 149, 0.64);
+  border-radius: 100%;
+}
+</style>
