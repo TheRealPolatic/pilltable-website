@@ -1,6 +1,6 @@
 <template>
   <headroom speed="400">
-    <header class="flex items-center justify-between flex-wrap p-4 bg-background shadow-md">
+    <header class="flex items-center justify-between flex-wrap p-6 bg-background">
       <div class="flex items-center flex-no-shrink mr-6">
         <a href="#">
           <h3 class="mt-0">Pilltable</h3>
@@ -28,29 +28,28 @@
       >
         <div class="flex flex-col md:flex-row justify-center items-center md:justify-between md:w-full">
           <div class="text-sm sm:flex-grow md:flex md:items-center justify-center">
-            <p>
+            <p class="text-lg">
               <a href="#" class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white sm:mr-16 text-center">
                 Home
               </a>
             </p>
-            <p>
+            <p class="text-lg">
               <a href="#" class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white sm:mr-16 text-center">
                 Features
               </a>
             </p>
-            <p>
-              <a href="#" class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white sm:mr-16 text-center">
+            <p class="text-lg">
+              <a href="#" class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white text-center">
                 Pricing
               </a>
             </p>
           </div>
           <div class="flex justify-center">
-            <a
-              href="#"
-              class="mt-9 sm:mt-0 whitespace-nowrap inline-flex items-center justify-center px-6 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+            <button
+              class="bg-gradient-to-tr from-button-gradient-1 to-button-gradient-2 hover:text-primary hover:from-white hover:to-white transform transition duration-300 ease-in-out font-rubik text-white text-l font-medium px-6 h-11 rounded-md shadow-none hover:shadow-2xl scale-100 hover:scale-105 active:scale-100 active:scale-100 focus:outline-none"
             >
-              Try for Free
-            </a>
+              Try for free
+            </button>
           </div>
         </div>
       </div>
@@ -77,3 +76,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.headroom {
+  background: red;
+}
+</style>
