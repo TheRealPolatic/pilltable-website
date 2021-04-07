@@ -1,7 +1,9 @@
 <template>
+
   <div
     class="relative overflow-hidden h-96 flex justify-center items-center bg-primary w-full my-12 rounded-lg"
   >
+
     <svg
       class="absolute top-0 w-full"
       width="1111"
@@ -29,12 +31,7 @@
           color-interpolation-filters="sRGB"
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
           <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur" />
         </filter>
       </defs>
@@ -50,10 +47,12 @@
       class="absolute bg-opacity-elements rounded-full animation-space-float -top-10 -right-10 w-72 h-72"
     ></div>
 
+
     <h2 class="lg:w-1/2 md:w-2/3 w-4/5 text-center leading-tight z-10">
       Try Pilltable with your friends for free
     </h2>
     <Button text="Open Pilltable" secondary="true" />
+
   </div>
 </template>
 

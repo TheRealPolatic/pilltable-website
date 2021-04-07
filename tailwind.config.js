@@ -11,9 +11,18 @@ module.exports = {
         'opacity-elements': 'rgba(255, 255, 255, 0.02)',
         'primary-gradient-1': '#35346C',
         'primary-gradient-2': '#2C2B5A',
+        'button-gradient-1': '#4A57FC',
+        'button-gradient-2': '#1D2DFB',
+        'dark-elements': '#211E3F',
       },
       fontFamily: {
         'rubik': ['Rubik', 'sans-serif'],
+      },
+      radialGradientColors: (theme) => theme('colors'),
+      conicGradientColors: (theme) => theme('colors'),
+      linearGradientColors: {
+        'button1-button2': ['#4A57FC', '#1D2DFB'],
+        'btnwhite1-btnwhite2': ['#fff', '#fff'],
       },
       fontSize: {
         '24xl': '1.5rem', // H3
@@ -22,11 +31,13 @@ module.exports = {
       },
       letterSpacing: {
         widestPilltable: '.45em',
-      }
+      },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: ['responsive', 'hover', 'active', 'focus'],
+    },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-gradients')],
 }
