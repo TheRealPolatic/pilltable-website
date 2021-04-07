@@ -1,5 +1,5 @@
 <template>
-  <div class="my-12">
+  <div class="my-24">
     <div class="tagline flex justify-center my-4">Our partners</div>
     <div class="flex md:justify-center md:flex-row flex-col my-10">
       <img class="h-10 mx-8 md:my-0 my-6" :src="require(`~/assets/partners/electric.svg`)" />
