@@ -1,13 +1,13 @@
 <template>
-  <div class="my-12">
-    <div class="mt-12">
+  <div class="mt-80">
+    <div>
       <div class="tagline">Testimonials</div>
       <h2 class="md:w-3/5 w-full leading-tight">This is what our users say about Pilltable🤔</h2>
     </div>
 
     <div class="md:h-screen h-auto w-full relative">
       <div
-        class="md:absolute md:top-0 md:transform md:translate-x-12 md:translate-y-24 bg-primary md:w-96 md:h-80 h-96 w-full rounded-md"
+        class="md:absolute md:top-0 md:transform md:translate-x-24 md:translate-y-24 bg-primary md:w-96 md:h-80 h-96 w-full rounded-md"
       >
         <div class="">
           <p class="text-white md:m-7 md:p-0 p-7 md:text-xl text-base">
@@ -21,7 +21,7 @@
       </div>
 
       <div
-        class="md:absolute md:top-0 md:right-0 md:transform md:translate-x-7 bg-primary md:w-6/12 md:h-64 h-auto w-full rounded-md md:my-0 my-7"
+        class="md:absolute md:top-0 md:right-0 md:transform md:-translate-x-24 bg-primary md:w-5/12 md:h-64 h-auto w-full rounded-md md:my-0 my-7"
       >
         <div class="">
           <p class="text-white p-7 md:text-xl text-base">
@@ -34,7 +34,7 @@
       </div>
 
       <div
-        class="md:absolute md:bottom-0 md:right-0 md:transform md:-translate-x-12 md:-translate-y-48 bg-primary md:w-5/12 md:h-60 h-auto w-full rounded-md"
+        class="md:absolute md:bottom-0 md:right-0 md:transform md:-translate-x-48 md:-translate-y-80 bg-primary md:w-4/12 md:h-60 h-auto w-full rounded-md"
       >
         <div class="">
           <p class="text-white md:m-7 md:p-0 p-7 md:text-xl text-base">

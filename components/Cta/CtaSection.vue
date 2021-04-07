@@ -1,6 +1,13 @@
 <template>
   <div class="relative h-96 flex justify-center items-center bg-primary w-full my-12 rounded-lg">
-    <svg class="absolute top-0 w-full" width="1111" height="367" viewBox="0 0 1111 367" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      class="absolute top-0 w-full"
+      width="1111"
+      height="367"
+      viewBox="0 0 1111 367"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <g opacity="0.6" filter="url(#filter0_f)">
         <path
           fill-rule="evenodd"
@@ -10,7 +17,15 @@
         />
       </g>
       <defs>
-        <filter id="filter0_f" x="-219" y="-407" width="1554.23" height="1332.89" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <filter
+          id="filter0_f"
+          x="-219"
+          y="-407"
+          width="1554.23"
+          height="1332.89"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
           <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur" />

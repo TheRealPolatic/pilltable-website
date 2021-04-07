@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mt-12">
+    <div class="mb-64">
       <div class="tagline">Questions</div>
       <h2>What the FAQ!? 🤔</h2>
       <FaqQuestion v-for="faq in faqs" :key="faq.question" :faq="faq" />
@@ -19,12 +19,22 @@ export default {
             'Yes! All the data is encrypted with military grade  🔐 ️encryption. Since we don’t collect any personally identifiable information, you are at no risk.',
         },
         {
-          question: 'What will happen when there is a data leak? ',
+          question: 'Which information do you store? ',
           answer:
             'Yes! All the data is encrypted with military grade  🔐 ️encryption. Since we don’t collect any personally identifiable information, you are at no risk.',
         },
         {
-          question: 'What will happen when there is a data leak? ',
+          question: 'Is my data safe? ',
+          answer:
+            'Yes! All the data is encrypted with military grade  🔐 ️encryption. Since we don’t collect any personally identifiable information, you are at no risk.',
+        },
+        {
+          question: 'Which information do you store? ',
+          answer:
+            'Yes! All the data is encrypted with military grade  🔐 ️encryption. Since we don’t collect any personally identifiable information, you are at no risk.',
+        },
+        {
+          question: 'Is my data safe? ',
           answer:
             'Yes! All the data is encrypted with military grade  🔐 ️encryption. Since we don’t collect any personally identifiable information, you are at no risk.',
         },
