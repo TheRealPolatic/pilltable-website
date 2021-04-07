@@ -1,13 +1,9 @@
 <template>
-
-  <div
-    class="relative overflow-hidden h-96 flex justify-center items-center bg-primary w-full my-12 rounded-lg"
-  >
-
+  <div class="relative overflow-hidden h-96 flex justify-center items-center bg-primary w-full my-12 rounded-lg">
     <svg
       class="absolute top-0 w-full"
       width="1111"
-      height="367"
+      height="397"
       viewBox="0 0 1111 367"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -36,23 +32,14 @@
         </filter>
       </defs>
     </svg>
-    <div
-      class="absolute bg-opacity-elements rounded-full animation-space-float-2 left-0 -top-20 w-44 h-44"
-    ></div>
-    <div
-      class="absolute bg-opacity-elements rounded-full animation-space-float-3 left-20 -bottom-10 w-60 h-60"
-    ></div>
+    <div class="absolute bg-opacity-elements rounded-full animation-space-float-2 left-0 -top-20 w-44 h-44"></div>
+    <div class="absolute bg-opacity-elements rounded-full animation-space-float-3 left-20 -bottom-10 w-60 h-60"></div>
+    <div class="absolute bg-opacity-elements rounded-full animation-space-float -top-10 -right-10 w-72 h-72"></div>
 
-    <div
-      class="absolute bg-opacity-elements rounded-full animation-space-float -top-10 -right-10 w-72 h-72"
-    ></div>
-
-
-    <h2 class="lg:w-1/2 md:w-2/3 w-4/5 text-center leading-tight z-10">
-      Try Pilltable with your friends for free
-    </h2>
-    <Button text="Open Pilltable" secondary="true" />
-
+    <div class="flex flex-col items-center justify-center">
+      <h2 class="md:w-2/3 w-4/5 text-center leading-tight z-10">Try Pilltable with your friends for free</h2>
+      <Button text="Open Pilltable" secondary="true" link="/try-now" />
+    </div>
   </div>
 </template>
 
