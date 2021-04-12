@@ -8,7 +8,7 @@
       <p class="max-w-xl m-auto">
         Anonymously create or join a group and keep track of everyone's ecstasy usage with ease.
       </p>
-      <Button class="mt-10" text="Start tracking" link="/try-now" secondary="true" />
+      <Button class="mt-10" text="Start tracking" link="/try-now" />
     </div>
     <img class="m-auto" src="~/assets/mockups/hero-mockup.png" alt="" srcset="" />
   </div>
