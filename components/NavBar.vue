@@ -31,17 +31,39 @@
         <div class="flex flex-col md:flex-row justify-center items-center md:justify-between md:w-full">
           <div class="text-sm sm:flex-grow md:flex md:items-center justify-center">
             <p class="text-lg">
-              <a href="#" class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white sm:mr-16 text-center">
+              <a href="/" class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white sm:mr-16 text-center">
                 Home
               </a>
             </p>
             <p class="text-lg">
-              <a href="#" class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white sm:mr-16 text-center">
+              <a
+                v-scroll-to="{
+                  el: '#features',
+                  duration: 1500,
+                  lazy: false,
+                  easing: 'ease-in-out',
+                  offset: -50,
+                  x: false,
+                  y: true,
+                }"
+                href="#"
+                class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white sm:mr-16 text-center"
+              >
                 Features
               </a>
             </p>
             <p class="text-lg">
-              <a href="#" class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white text-center">
+              <a
+                v-scroll-to="{
+                  el: '#pricing',
+                  duration: 1500,
+                  lazy: false,
+                  easing: 'ease-in-out',
+                  offset: -50,
+                }"
+                href="#"
+                class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white text-center"
+              >
                 Pricing
               </a>
             </p>
