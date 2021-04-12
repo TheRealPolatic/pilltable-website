@@ -10,6 +10,7 @@
         class="md:absolute md:top-0 md:transform md:translate-x-24 md:translate-y-24 bg-primary md:w-96 md:h-80 h-96 w-full rounded-md"
       >
         <div class="">
+          <img class="absolute transform translate-x-4 -translate-y-4" :src="require(`~/assets/images/quote.svg`)" />
           <p class="text-white md:m-7 md:p-0 p-7 md:text-xl text-base">
             Great app, works really well for harm reduction and responsible usage! I like the attractive aesthetic and
             the ease of use of the UI. It has great functionality and the "I'm having a bad time" button is a great
@@ -24,6 +25,7 @@
         class="md:absolute md:top-0 md:right-0 md:transform md:-translate-x-24 bg-primary md:w-5/12 md:h-64 h-auto w-full rounded-md md:my-0 my-7"
       >
         <div class="">
+          <img class="absolute transform translate-x-4 translate-y-3" :src="require(`~/assets/images/quote.svg`)" />
           <p class="text-white p-7 md:text-xl text-base">
             The notepad experience is really unfriendly if you're tracking for multiple people. Your app seems like a
             great solution to the problem and a good way to keep an eye out for your mates.
@@ -37,6 +39,7 @@
         class="md:absolute md:bottom-0 md:right-0 md:transform md:-translate-x-48 md:-translate-y-80 bg-primary md:w-4/12 md:h-60 h-auto w-full rounded-md"
       >
         <div class="">
+          <img class="absolute transform translate-x-4 -translate-y-4" :src="require(`~/assets/images/quote.svg`)" />
           <p class="text-white md:m-7 md:p-0 p-7 md:text-xl text-base">
             I was super stoked for this! While I luckily distanced myself from being a festival dad, I do tend to still
             be the ''tracker guy'' for my mates.
