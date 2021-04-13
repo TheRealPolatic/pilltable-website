@@ -8,6 +8,7 @@ module.exports = {
         'background': '#1D1A3B',
         'highlight': '#4A57FC',
         'light-grey': '#D6D6E0',
+        'dark-grey': '#9F9FB7',
         'opacity-elements': 'rgba(255, 255, 255, 0.02)',
         'primary-gradient-1': '#35346C',
         'primary-gradient-2': '#2C2B5A',
