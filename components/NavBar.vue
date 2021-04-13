@@ -50,7 +50,7 @@
                   y: true,
                 }"
                 href="#"
-                class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-whitemr-0 sm:mr-4 md:mr-16 text-center"
+                class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white mr-0 sm:mr-4 md:mr-16 text-center"
               >
                 Features
               </a>
