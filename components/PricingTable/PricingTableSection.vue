@@ -16,12 +16,12 @@
     <!-- Render all features -->
     <PricingTableRow v-for="feature in features" :key="feature.title" :feature="feature" />
 
-    <div class="grid grid-cols-12 gap-2 p-6">
-      <div class="col-span-6"></div>
-      <div class="col-span-3 mx-auto">
+    <div class="md:grid md:grid-cols-12 md:gap-2 p-6">
+      <div class="md:col-span-6"></div>
+      <div class="md:col-span-3 md:mx-auto">
         <Button text="Free version" link="/try-now" secondary />
       </div>
-      <div class="col-span-3 mx-auto">
+      <div class="md:col-span-3 md:mx-auto md:mt-0 mt-5">
         <Button text="Go unlimited" link="https://www.google.nl" />
       </div>
     </div>
