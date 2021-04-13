@@ -1,7 +1,6 @@
 <template>
   <div class="text-center min-h-screen">
     <div class="pt-32 z-10 relative">
-      <!-- <img class="absolute overflow-visible w-screen" src="~/assets/images/bg-circle.svg" /> -->
       <div class="tagline text-center">EXPERIENCE THE APP</div>
       <h2 class="text-center">
         Pilltable is a web based application.<br />
@@ -16,16 +15,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {}
-</script>
-
-<style scoped>
-.circle-background {
-  background-image: url('~/assets/images/bg-circle.svg');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-</style>

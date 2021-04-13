@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 .circle-background {
-  background-image: url('~/assets/images/bg-circle.svg');
+  background-image: url('~/assets/images/try-now-circle.svg');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
