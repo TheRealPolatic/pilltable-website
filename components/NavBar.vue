@@ -26,33 +26,58 @@
       </div>
       <div
         :class="isOpen ? 'block' : 'hidden'"
-        class="transition duration-500 ease-in-out md:relative h-screen mt-32 md:mt-0 lg:h-9 top-16 left-0 md:top-0 z-20 w-full flex-grow sm:flex sm:items-center sm:w-auto"
+        class="transition duration-500 ease-in-out sm:flex sm:items-center sm:w-auto sm:relative h-screen mt-32 sm:mt-0 sm:h-9 z-20 w-full flex-grow"
       >
-        <div class="flex flex-col md:flex-row justify-center items-center md:justify-between md:w-full">
-          <div class="text-sm sm:flex-grow md:flex md:items-center justify-center">
+        <div class="flex flex-col sm:flex-row justify-center items-center sm:justify-between sm:w-full">
+          <div class="text-sm sm:flex-grow sm:flex sm:items-center justify-center">
             <p class="text-lg">
-              <a href="#" class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white sm:mr-16 text-center">
+              <NuxtLink
+                to="/"
+                class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white mr-0 sm:mr-4 md:mr-16 text-center"
+              >
                 Home
-              </a>
+              </NuxtLink>
             </p>
             <p class="text-lg">
-              <a href="#" class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white sm:mr-16 text-center">
+              <a
+                v-scroll-to="{
+                  el: '#features',
+                  duration: 1500,
+                  lazy: false,
+                  easing: 'ease-in-out',
+                  offset: -50,
+                  x: false,
+                  y: true,
+                }"
+                href="#"
+                class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white mr-0 sm:mr-4 md:mr-16 text-center"
+              >
                 Features
               </a>
             </p>
             <p class="text-lg">
-              <a href="#" class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white text-center">
+              <a
+                v-scroll-to="{
+                  el: '#pricing',
+                  duration: 1500,
+                  lazy: false,
+                  easing: 'ease-in-out',
+                  offset: -50,
+                }"
+                href="#"
+                class="no-underline block mt-9 sm:inline-block sm:mt-0 hover:text-white text-center"
+              >
                 Pricing
               </a>
             </p>
           </div>
-          <div class="flex justify-center">
-            <a href="/try-now">
+          <div class="flex justify-center mt-9 sm:mt-0">
+            <NuxtLink to="/try-now">
               <button
                 class="bg-gradient-to-tr from-button-gradient-1 to-button-gradient-2 hover:text-primary hover:from-white hover:to-white transform transition duration-300 ease-in-out font-rubik text-white text-l font-medium px-6 h-11 rounded-md shadow-none hover:shadow-2xl scale-100 hover:scale-105 active:scale-100 active:scale-100 focus:outline-none"
               >
                 Try for free
-              </button></a
+              </button></NuxtLink
             >
           </div>
         </div>
