@@ -1,7 +1,7 @@
 <template>
   <div class="text-center min-h-screen">
     <div class="pt-32 z-10 relative">
-      <img class="absolute overflow-visible w-screen" src="~/assets/images/bg-circle.svg" />
+      <!-- <img class="absolute overflow-visible w-screen" src="~/assets/images/bg-circle.svg" /> -->
       <div class="tagline text-center">EXPERIENCE THE APP</div>
       <h2 class="text-center">
         Pilltable is a web based application.<br />
