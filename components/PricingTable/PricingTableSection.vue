@@ -19,10 +19,10 @@
     <div class="md:grid md:grid-cols-12 md:gap-2 p-6">
       <div class="md:col-span-6"></div>
       <div class="md:col-span-3 md:mx-auto -mx-4">
-        <Button text="Free version" link="/try-now" secondary />
+        <Button text="Free version" link="/try-now" secondary fullwidth />
       </div>
       <div class="md:col-span-3 md:mx-auto md:mt-0 mt-5 -mx-4">
-        <Button text="Go unlimited" link="https://www.google.nl" />
+        <Button text="Go unlimited" link="/try-now" fullwidth />
       </div>
     </div>
   </div>

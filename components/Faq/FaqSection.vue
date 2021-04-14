@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mb-64">
+    <div class="mb-32">
       <div class="tagline">Questions</div>
       <h2>What the FAQ!? 🤔</h2>
       <FaqQuestion v-for="faq in faqs" :key="faq.question" :faq="faq" />
