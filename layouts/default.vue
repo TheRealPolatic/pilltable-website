@@ -1,7 +1,7 @@
 <template>
   <div
     class="w-full bg-background h-full antialiased pattern-background"
-    :class="{ 'circle-background': isTryNowPage }"
+    :class="{ 'try-now-circle': isTryNowPage, 'circle-background': isHomePage }"
   >
     <NavBar />
     <div
@@ -19,6 +19,9 @@ export default {
     isTryNowPage() {
       return this.$route.path === '/try-now'
     },
+    isHomePage() {
+      return this.$route.path === '/'
+    },
   },
 }
 </script>
@@ -31,10 +34,18 @@ export default {
   background-repeat: no-repeat;
   background-size: 35%, 25%, 20%, 25%;
 }
-.circle-background {
+.try-now-circle {
   background-image: url('~/assets/images/try-now-circle.svg');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+
+.circle-background {
+  background-image: url('~/assets/images/bg-circle.svg');
+  /* background-size: cover; */
+  background-position: 50% 1%;
+  background-repeat: no-repeat;
+  background-size: 1000px;
 }
 </style>
