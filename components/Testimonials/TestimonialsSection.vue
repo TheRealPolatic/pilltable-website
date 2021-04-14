@@ -1,11 +1,11 @@
 <template>
-  <div class="md:mt-72 mt-36 lg:mb-44 md:mb-24 mb-24">
+  <div class="md:mt-72 mt-36 lg:mb-52 md:mb-24 mb-24">
     <div>
       <div class="tagline">Testimonials</div>
       <h2 class="md:w-3/5 w-full leading-tight">This is what our users say about Pilltable🤔</h2>
     </div>
 
-    <div class="xl:h-screen w-full flex md:flex-row flex-col">
+    <div class="xl:h-3/4 w-full flex md:flex-row flex-col">
       <div class="md:w-1/2 w-full flex justify-center">
         <div class="bg-primary xl:w-9/12 lg:w-10/12 md:w-10/12 md:h-96 w-full rounded-md xl:my-44 md:my-32 my-7">
           <img class="absolute transform translate-x-5 translate-y-6" :src="require(`~/assets/images/quote.svg`)" />
