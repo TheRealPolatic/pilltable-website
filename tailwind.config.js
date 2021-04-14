@@ -36,6 +36,9 @@ module.exports = {
       borderRadius: {
         'video': '2rem',
       },
+      width: {
+        '16/12': '140%',
+      },
     },
   },
   variants: {
