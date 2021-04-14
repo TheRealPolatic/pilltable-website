@@ -33,6 +33,12 @@ module.exports = {
       letterSpacing: {
         widestPilltable: '.45em',
       },
+      borderRadius: {
+        'video': '2rem',
+      },
+      width: {
+        '16/12': '140%',
+      },
     },
   },
   variants: {

@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="w-full bg-background h-full antialiased pattern-background"
-    :class="{ 'try-now-circle': isTryNowPage, 'circle-background': isHomePage }"
-  >
+  <div class="w-full bg-background h-full antialiased pattern-background" :class="{ 'try-now-circle': isTryNowPage }">
+    <!-- , 'circle-background': isHomePage -->
     <NavBar />
     <div
       class="container mx-auto 2xl:px-40 xl:px-28 lg:px-16 md:px-12 px-6 bg-circle bg-contain bg-no-repeat bg-center"

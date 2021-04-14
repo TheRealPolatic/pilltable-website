@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-72 md:my-40">
-    <div class="tagline text-center" id="features">GET ALL THE FEATURES</div>
+  <div class="mt-24 md:my-40">
+    <div id="features" class="tagline text-center">GET ALL THE FEATURES</div>
     <h2 class="text-center">An experience you deserve</h2>
     <!-- Feature Tile Grid -->
     <div class="grid mt-16 lg:grid-cols-3 gap-6 2xl:gap-y-6 md:grid-cols-2 sm:grid-cols-1">
