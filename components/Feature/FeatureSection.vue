@@ -1,5 +1,5 @@
 <template>
-  <div class="my-40">
+  <div class="mt-72 md:my-40">
     <div class="tagline text-center" id="features">GET ALL THE FEATURES</div>
     <h2 class="text-center">An experience you deserve</h2>
     <!-- Feature Tile Grid -->

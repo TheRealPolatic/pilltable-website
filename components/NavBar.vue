@@ -4,9 +4,9 @@
       class="flex items-center justify-between flex-wrap p-6 container mx-auto 2xl:px-40 xl:px-32 lg:px-16 md:px-12 px-6"
     >
       <div class="flex items-center flex-no-shrink mr-6">
-        <a href="#">
+        <NuxtLink to="/">
           <h3 class="mt-0">Pilltable</h3>
-        </a>
+        </NuxtLink>
       </div>
       <div class="block sm:hidden">
         <button class="flex items-center px-3 py-2 hover:text-white text-white" @click="toggle">

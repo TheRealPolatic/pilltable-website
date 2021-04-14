@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-hidden h-96 flex justify-center items-center bg-primary w-full my-12 rounded-lg">
+  <div class="relative overflow-hidden h-96 flex justify-center items-center bg-primary w-full mb-32 rounded-lg">
     <svg
       class="absolute top-0 w-full"
       width="1111"

@@ -1,18 +1,17 @@
 <template>
-  <div>
-    <a :href="`${link}`">
-      <button
-        class="transform transition duration-300 ease-in-out font-rubik text-white text-l font-medium px-8 h-14 rounded-md shadow-none hover:shadow-2xl scale-100 hover:scale-105 active:scale-100 active:scale-100 focus:outline-none"
-        :class="
-          secondary
-            ? 'bg-transparent hover:text-primary hover:bg-white border-2 border-white'
-            : 'bg-gradient-to-tr from-button-gradient-1 to-button-gradient-2 hover:text-primary hover:from-white hover:to-white'
-        "
-      >
-        {{ text }}
-      </button>
-    </a>
-  </div>
+  <NuxtLink :to="`${link}`">
+    <button
+      class="transform transition duration-300 ease-in-out font-rubik text-white text-l font-medium px-8 h-14 rounded-md shadow-none hover:shadow-2xl scale-100 hover:scale-105 active:scale-100 active:scale-100 focus:outline-none"
+      :class="[
+        secondary
+          ? 'bg-transparent hover:text-primary hover:bg-white border-2 border-white'
+          : 'bg-gradient-to-tr from-button-gradient-1 to-button-gradient-2 hover:text-primary hover:from-white hover:to-white',
+        fullwidth ? 'w-full' : '',
+      ]"
+    >
+      {{ text }}
+    </button>
+  </NuxtLink>
 </template>
 
 <script>
@@ -23,6 +22,7 @@ export default {
     // eslint-disable-next-line vue/require-default-prop
     link: String,
     secondary: Boolean,
+    fullwidth: Boolean,
   },
 }
 </script>
