@@ -38,7 +38,7 @@
 
     <div class="flex flex-col items-center justify-center">
       <h2 class="md:w-2/3 w-4/5 text-center leading-tight z-10">Try Pilltable with your friends for free</h2>
-      <Button text="Open Pilltable" secondary="true" link="/try-now" />
+      <Button text="Open Pilltable" link="/try-now" />
     </div>
   </div>
 </template>
